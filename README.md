@@ -49,3 +49,48 @@ git clone https://github.com/hadiel7/Food-Rescue.git
 cd Food-Rescue
 npm install
 npm run dev
+
+## A API estará rodando por padrão em:
+
+http://localhost:3000
+
+## Clone o projeto da Landing Page
+
+git clone https://github.com/seu-usuario/food-rescue-landing.git
+cd food-rescue-landing
+npm install
+npm run dev
+
+## Acesse a aplicação:
+
+http://localhost:3001
+
+
+## 📁 Estrutura de Pastas (Landing Page)
+
+food-rescue-landing/
+├── components/        # Componentes React reutilizáveis
+├── pages/             # Página principal (index.tsx)
+├── styles/            # Tailwind + fontes
+├── utils/             # API helpers (axios)
+├── public/            # Imagens e ícones
+├── tailwind.config.ts
+└── tsconfig.json
+
+#🧑‍🎓 Desenvolvido por
+Hadiel de Paula Barbosa
+GitHub
+
+## 💡 Contexto
+Este projeto foi desenvolvido como parte do Mini Projeto do Módulo 4 (M4), com o objetivo de aplicar na prática conceitos de APIs REST, consumo de dados com React e boas práticas de UI/UX em uma página única.
+
+## 🔁 Backend (API)
+Pode ser hospedado em:
+
+Render
+
+Railway
+
+Heroku
+
+Lembre-se de expor as rotas /institutions, /donations, /volunteers para uso público.
